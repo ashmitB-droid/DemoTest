@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Test Suite" parallel="false">
+    <test name ="Test">
+        <parameter name="emulator" value="true"></parameter>
+        <parameter name="platformName" value="Android"/>
+        <parameter name="platformVersion" value="12.0"/>
+        <parameter name="deviceName" value="Any Device Name"/>
+        <classes>
+            <class name="com.demo.tests.LoginTests">
+            </class>
+        </classes>
+    </test>
+</suite>
